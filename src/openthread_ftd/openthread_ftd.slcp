@@ -110,3 +110,7 @@ filter:
     value: [SoC]
   - name: Project Difficulty
     value: [Advanced]
+
+define:
+  - name: OPENTHREAD_CONFIG_MESH_DIAG_ENABLE
+    value: 1
