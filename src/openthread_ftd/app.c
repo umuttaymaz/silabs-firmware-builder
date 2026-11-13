@@ -50,7 +50,7 @@
  *   so the dongle rejoins the network on a plain USB charger without CLI input.
  */
 #ifndef APP_DEFAULT_TX_POWER_DBM
-#define APP_DEFAULT_TX_POWER_DBM 10
+#define APP_DEFAULT_TX_POWER_DBM 15
 #endif
 
 #include "app.h"
