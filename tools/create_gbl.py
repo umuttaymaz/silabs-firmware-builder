@@ -167,7 +167,7 @@ def main():
 
     if fw_type == "zigbee_ncp" or fw_type == "zigbee_router":
         metadata["fw_version"] = find_sdk_version(sdk_meta, "zigbee")
-    elif fw_type == "openthread_rcp":
+    elif fw_type in ("openthread_rcp", "openthread_ftd"):
         metadata["fw_version"] = find_sdk_version(sdk_meta, "openthread")
     elif fw_type == "gecko-bootloader":
         # not currently in SLCS
